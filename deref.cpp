@@ -25,8 +25,8 @@ int main()
 
     if(*pcount > discount_threshold)
     {
-        std::cout << "You qualify a discount of " << static_cast<int>(discount*100.0) << " percent" << std::endl;
-        *pnet_price = price*(1.0 - discount) / 100.0;
+        std::cout << "You qualify a discount of " << static_cast<int>(discount * 100.0) << " percent" << std::endl;
+        *pnet_price = price * (1.0 - discount) / 100.0;
     }
     else
     {
